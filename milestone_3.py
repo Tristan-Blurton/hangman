@@ -1,4 +1,4 @@
-from hangman_functions import *
+from milestone_2 import *
 
 word = choose_random_word(word_list)
 
