@@ -16,7 +16,6 @@ def ask_for_input():
         guess = input("Please enter a single letter: ")
 
         if len(guess) == 1 and guess.isalpha() == True:
-            print("Good guess!")
             return guess
             exit()
         else:
